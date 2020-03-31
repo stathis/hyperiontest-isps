@@ -2,6 +2,5 @@ composer.phar
 /vendor/
 /cache/
 *.mmdb
-*.phar
 config.yaml
 
