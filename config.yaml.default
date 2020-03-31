@@ -1,0 +1,7 @@
+Cache: default # Can be default (<samedir>/cache), or absolute path
+GeoLite2ASN: ./GeoLite2-ASN.mmdb # Path to geolite db
+Networks:      # AS Numbers
+    - 1241  # Forthnet
+    - 3329  # Vodafone-Panafon
+    - 6799  # OTE
+    - 25472 # Wind Hellas

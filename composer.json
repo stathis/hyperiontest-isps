@@ -1,0 +1,8 @@
+{
+    "require": {
+        "geoip2/geoip2": "~2.0",
+        "php-school/cli-menu": "^4.0",
+        "mlocati/ip-lib": "^1.9",
+        "symfony/yaml": "^5.0"
+    }
+}
