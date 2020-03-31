@@ -36,8 +36,8 @@ define( 'CACHE', (function() {
 $menu = (new CliMenuBuilder)
 	->setTitle('Hyperiontest.gr ISP comparison -- Stathis Oureilidis <stathis@stathis.ch>')
 	->addLineBreak()
-    ->addItem('Last 1 month',   function(CliMenu $menu) { getStats('1mo'); })
-    ->addItem('Last 3 months',  function(CliMenu $menu) { getStats('3mo'); })
+	->addItem('Last 1 month',   function(CliMenu $menu) { getStats('1mo'); })
+	->addItem('Last 3 months',  function(CliMenu $menu) { getStats('3mo'); })
 	->addItem('Last 12 months', function(CliMenu $menu) { getStats('12mo'); })
 	->addItem('Previous year',  function(CliMenu $menu) { getStats('previousyear'); })
 	->addItem('Custom range',   function(CliMenu $menu) {
